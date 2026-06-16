@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Marcus Her</title>
+  <meta name="description" content="About Marcus Her — CS student, software engineer, and esports captain." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <meta name="theme-color" content="#131516" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a href="index.html" class="brand"><span class="prompt">$</span>marcus_her</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html#projects">projects</a>
+        <a href="index.html#skills">skills</a>
+        <a href="index.html#experience">experience</a>
+        <a href="about.html" class="active">about</a>
+        <a href="index.html#connect" class="btn btn-accent">contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="wrap about-intro reveal">
+      <div>
+        <span class="eyebrow">about me</span>
+        <h1 class="display" style="font-size:clamp(2.2rem,6vw,3.6rem);margin:14px 0 22px;">I enjoy learning different perspectives through hands‑on work.</h1>
+        <p>I'm a Computer Science student at Concordia University St. Paul, graduating May 2027. Most of what I enjoy lives a layer below the framework — writing a renderer from a single cube mesh, hand-rolling an NLP pipeline, or wiring real-time state across a room full of phones.</p>
+        <p>Right now I'm a game-dev intern at Nexus Games and a Tier 2 IT support assistant on campus. Outside of code, I play instruments (Drums, Guitar, Bass, Piano), hike, and explore new cities whenever I get the chance.</p>
+      </div>
+      <div class="about-photo">
+        <img src="assets/marcus-grad.jpg" alt="Marcus Her" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Education + quick facts -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">background</span>
+        <h2 class="display">Education</h2>
+      </div>
+      <div class="two-col reveal">
+        <div class="edu-card">
+          <h4>Concordia University St. Paul</h4>
+          <div class="sub">B.S. COMPUTER SCIENCE · SAINT PAUL, MN</div>
+          <p><span class="label">GPA:</span> 3.3 &nbsp;·&nbsp; <span class="label">Expected:</span> May 2027</p>
+          <p><span class="label">Honors:</span> Dean's List — Fall 2025 &amp; Spring 2026</p>
+          <p><span class="label">Coursework:</span> OOP in Java, Client-Side Web Dev, Database Design, Discrete Math, Programming Paradigms, Data Structures &amp; Algorithms</p>
+        </div>
+        <div class="edu-card">
+          <h4>What I'm into</h4>
+          <div class="sub">FOCUS AREAS</div>
+          <p>Systems & graphics programming — engines, renderers, collision, and the math underneath them.</p>
+          <p>Applied ML — neural nets and NLP pipelines built and packaged end to end.</p>
+          <p>Full-stack & real-time apps — FastAPI services, React/React Native frontends, Firebase-synced multiplayer.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience (full) -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">where i've worked</span>
+        <h2 class="display">Experience</h2>
+      </div>
+      <div class="xp reveal">
+        <div class="xp-item">
+          <div class="xp-when">JUN 2026 — PRESENT</div>
+          <div>
+            <h3 class="xp-role">Game Development & Testing Intern</h3>
+            <div class="xp-org">Nexus Games</div>
+            <ul class="xp-body">
+              <li>Collaborate in a team of 5 to design and develop a web-based game that builds critical-thinking and cognitive skills.</li>
+              <li>Contribute to early game design and architecture, including arena-style learning mechanics.</li>
+              <li>Build interactive features with web technologies focused on engaging, learning-reinforcing UX.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="xp-item">
+          <div class="xp-when">MAY 2026 — PRESENT</div>
+          <div>
+            <h3 class="xp-role">Student Technical Support Assistant</h3>
+            <div class="xp-org">Concordia University St. Paul</div>
+            <ul class="xp-body">
+              <li>Tier 2 IT support using Active Directory and Microsoft 365 admin tools.</li>
+              <li>Deploy and configure campus devices via imaging software for consistent environments.</li>
+              <li>In-person and remote troubleshooting for students and faculty across hardware, software, and networks.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="xp-item">
+          <div class="xp-when">JUL 2024 — SEP 2024</div>
+          <div>
+            <h3 class="xp-role">Web Developer</h3>
+            <div class="xp-org">Wearing Asian Stories</div>
+            <ul class="xp-body">
+              <li>Designed and built an e-commerce platform supporting 15+ clothing products with responsive browsing and checkout.</li>
+              <li>Built a mobile-friendly interface that reduced navigation steps.</li>
+              <li>Worked directly with the owner to clarify requirements and align on business goals.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="xp-item">
+          <div class="xp-when">SEP 2023 — PRESENT</div>
+          <div>
+            <h3 class="xp-role">Esports — Valorant <span style="color:var(--faint);font-weight:500;">(Captain 2023–2025)</span></h3>
+            <div class="xp-org">Concordia University St. Paul</div>
+            <ul class="xp-body">
+              <li>Captained the team through national tournaments — strategy, match prep, and in-game calling.</li>
+              <li>Reviewed match film and scrim data to find patterns and sharpen team coordination.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="connect" id="connect">
+    <div class="wrap reveal">
+      <span class="eyebrow">get in touch</span>
+      <h2 class="display">Let's build something.</h2>
+      <p>I'm open to internships and software engineering roles. Reach out — I'll get back to you.</p>
+      <div class="connect-links">
+        <a href="mailto:marcusher@hotmail.com" class="btn btn-accent">Email me</a>
+        <a href="https://github.com/MarcusHawj" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+        <a href="https://linkedin.com/in/marcus-her-5b224230a" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+      </div>
+      <div class="contact-line">
+        <a href="mailto:marcusher@hotmail.com">marcusher@hotmail.com</a>
+        <a href="tel:6512360056">651-236-0056</a>
+        <span>Saint Paul, MN</span>
+      </div>
+      <div class="foot">
+        <span>© 2026 Marcus Her</span>
+        <span>built from scratch · html · css · js</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
